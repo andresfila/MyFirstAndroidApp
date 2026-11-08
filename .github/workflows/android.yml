@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      ANDROID_HOME: ${{ runner.temp }}/android-sdk
+      ANDROID_HOME: /home/runner/android-sdk
 
     steps:
       - name: Checkout repository
