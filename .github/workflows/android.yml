@@ -12,6 +12,7 @@ jobs:
 
     env:
       ANDROID_HOME: /home/runner/android-sdk
+      ANDROID_SDK_ROOT: /home/runner/android-sdk
 
     steps:
       - name: Checkout repository
